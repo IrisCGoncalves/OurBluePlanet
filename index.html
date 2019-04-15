@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html lang="en">
   <head>
-      <script type="text/javascript" src="java/scripts.js"></script>
+
       <link href="css/styles.css" rel="stylesheet">
       <meta charset="utf-8">
       <title>Our Blue Planet</title>
@@ -49,15 +49,17 @@
 
             <!--collapsibles-->
             <h1>Environmental Impact</h1>
-              <button class="collapsible" id="ec" onclick="openCollapsible()">Meat Consumption</button> <!--collapsible textarea-->
+              <button class="collapsible" id="ec">Meat Consumption</button> <!--collapsible textarea-->
+                <div class="content">
+                  <p> The concepts of open market and international borders have brought great value to everyday life. However, increased consumption and need for immediate products has permanently changed the way
+                  we do production. Unsustainable meat production is the biggest factor that contributes to environmental impact and ultimately climate change. The consumer now holds responsibility for their choices
+                  and should embrace knowledge and information on the impact of their market behaviour. What is asked for is delivered, at great cost sometimes.</p>
+                </div>
+              <button class="collapsible">Fossil Fuel</button>
                 <div class="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-              <button class="collapsible" onclick="openCollapsible()">Fossil Fuel</button>
-                <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-              <button class="collapsible" onclick="openCollapsible()">Waste</button>
+              <button class="collapsible">Waste</button>
                 <div class="content">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
@@ -132,4 +134,5 @@
                   <input type="submit" value="Subscribe">
                 </div>
               </form>
+                <script type="text/javascript" src="java/scripts.js"></script>
   </body>
